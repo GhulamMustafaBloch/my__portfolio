@@ -1,0 +1,25 @@
+.hero{
+    & > div{
+        height: 500px;
+        &>div{
+            .img{
+                background-color: aqua;
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+                img{
+                    width: 100%;
+                    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+                }
+            }
+        }
+        .content{
+            p{
+                text-align: justify;
+                line-height: 2;
+                color: #aaa;
+            }
+        }
+    }
+}
